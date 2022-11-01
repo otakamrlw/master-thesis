@@ -1,0 +1,6 @@
+# Domain Adaptation for Aerial Imagery using Generative Adversarial Networks for Semantic Segmentation
+This is the implementation of the master's thesis, "Domain Adaptation for Aerial Imagery using Generative Adversarial Networks for Semantic Segmentation".
+## Abstract 
+
+Segmenting aerial and satellite imagery is of great importance in many fields such as agriculture, surveillance, and city planning. With the rapid advance of deep neural networks and the rise of satellite and aerial imagery's availability, the segmenting task of aerial imagery has been intensively studied. Despite many successes of deep learning-based models, the classifier trained by data from one domain may not perform well with data from a new domain. This is called the domain adaptation problem and the main factors are various sensors, land cover, season (clear roads and covered with snow), and geography for remote sensing tasks. In this work, we deal with the domain adaptation problem of aerial imagery. We demonstrate the effectiveness of the CycleGAN-based domain adaptation method on the Inria Aerial Image Labeling Dataset, which is not tested yet to the best of our knowledge. Our method improved the segmentation performance when the model was applied to the unseen domain.
+
